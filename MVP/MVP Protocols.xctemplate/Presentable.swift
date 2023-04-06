@@ -27,6 +27,8 @@ extension Presentable {
     
     // MARK: - Initializers
     
+    /// Initialize with navigation controller defined
+    /// - Parameter navigationController: UINavigation controller to assign to view controller
     init(with navigationController: UINavigationController? = nil) {
         self.init()
         

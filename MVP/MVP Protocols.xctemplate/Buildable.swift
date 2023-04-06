@@ -23,6 +23,11 @@ extension Buidable {
     
     // MARK: - Public methods
     
+    /// Create module with view and presenter
+    /// - Parameters:
+    ///   - view: module view
+    ///   - presenter: module presenter
+    /// - Returns: UIViewController
     static func createModule(view: View, presenter: Presenter) -> View {
         view.presenter = presenter as? Self.View.Presenter
         presenter.view = view as? Self.Presenter.View
