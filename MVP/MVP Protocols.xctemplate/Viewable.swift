@@ -1,9 +1,4 @@
-//
-//  Viewable.swift
-//  MVP Demo
-//
-//  Created by glori0s on 06.04.2023.
-//
+//  ___FILEHEADER___
 
 import Foundation
 
